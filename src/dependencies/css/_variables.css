@@ -1,0 +1,9 @@
+:root {
+  --font-family-primary: "Bungee Shade", sans-serif;
+  --font-family-secondary: "Palatino", serif;
+  --color-background: white;
+  --color-primary: hsla(4, 61%, 9%, 1);
+  --color-secondary: maroon;
+  --padding-base: 5px;
+  --font-size-root: 16px;
+}

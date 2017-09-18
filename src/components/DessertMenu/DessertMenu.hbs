@@ -1,0 +1,15 @@
+<section class="DessertMenu u-posAbsoluteCenter u-size2of4">
+  <header class="DessertMenu-header">
+    <h2 class="DessertMenu-headerText u-block u-textCenter"> {{title}}</h2>
+  </header>
+  <ul class="DessertMenu-items u-textCenter">
+    {{#each desserts}}
+    <li class="DessertMenu-item">
+      <h3 class="DessertMenu-itemTitle">{{dessert-name}}</h3>
+      <p class="DessertMenu-itemDescription">{{dessert-desc}}
+        <span class="DessertMenu-itemPrice"> {{dessert-price}} </span>
+      </p>
+    </li>
+    {{/each}}
+  </ul>
+</section>

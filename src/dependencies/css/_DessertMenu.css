@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.DessertMenu {
+  background-color: var(--color-background);
+  border: 4px double var(--color-primary);
+  border-radius: 2px;
+  color: var(--color-primary);
+
+}
+
+.DessertMenu-header {
+  padding: calc(var(--padding-base) * 6) var(--padding-base);
+  position: relative;
+}
+
+.DessertMenu-header::after,
+.DessertMenu-header::before {
+  bottom: 0;
+  content: '';
+  display: block;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.DessertMenu-header::after {
+  background: var(--color-primary);
+  height: 1px;
+  width: 80%;
+}
+
+.DessertMenu-header::before {
+  background: var(--color-secondary);
+  bottom: -5px;
+  height: 12px;
+  transform: translateX(-50%) rotate(45deg);
+  width: 12px;
+  z-index: 2;
+}
+
+.DessertMenu-headerText {
+  font-family: var(--font-family-primary);
+  font-size: calc(var(--font-size-root) * 2);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.DessertMenu-items {
+  padding: calc(var(--padding-base) * 4);
+}
+
+
+.DessertMenu-item {
+  font-family: var(--font-family-secondary);
+  margin: calc(var(--padding-base) * 4) 0;
+  text-align: center;
+  width: 100%;
+}
+
+.DessertMenu-itemTitle {
+  margin-bottom: var(--padding-base);
+}
+
+.DessertMenu-itemDescription {
+  font-size: calc(var(--font-size-root) * 0.8);
+  margin: 0 auto;
+  width: 60%;
+}
+
+.DessertMenu-itemPrice {
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: calc(var(--font-size-root) * 1.1);
+  margin-left: calc(var(--padding-base) * 2);
+}
