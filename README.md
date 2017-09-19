@@ -9,9 +9,14 @@ You will be using ordinary CSS that supports the use of variables and calc() fun
 # Installation
 * First download or clone the repository.
 * Next, navigate to the directory in a terminal and run
-<npm install>
+```
+npm install
+```
 * If not already on the `start` branch, run
-<git checkout -b "start">
+```
+git checkout -b "start"
+```
+
 * We've provided a skeleton to avoid some of the initial hassle and grunt work.
 
 # Documentation
@@ -56,18 +61,18 @@ For this exercise, the inline variant can be created without needing to write a 
 * Maroon
 
 #### Data
-Lemon Tart
+* Lemon Tart
 fresh lemon filling, shortbread crust, whipped cream
 8
 
-Bourbon Chocolate Pie
+* Bourbon Chocolate Pie
 bourbon and dark chocolate, marshmallow, salted caramel
 9
 
-Chocolate Macaroons
+* Chocolate Macaroons
 chocolate drizzles, coconut, almonds
 7
 
-Gluten-free Chocolate Tart
+* Gluten-free Chocolate Tart
 orange creme anglaise, raspberry mint salsa, vanilla ice cream
 7
