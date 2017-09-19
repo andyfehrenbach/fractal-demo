@@ -1,8 +1,8 @@
-<section class="DessertMenu{{#if blockLayout}} DessertMenu--blockLayout{{/if}} u-posAbsoluteCenter">
+<section class="DessertMenu{{#if inline}} DessertMenu--inline{{/if}} u-posAbsoluteCenter">
   <header class="DessertMenu-header">
-    <h2 class="DessertMenu-headerText u-textCenter"> {{title}}</h2>
+    <h2 class="DessertMenu-headerText"> {{title}}</h2>
   </header>
-  <ul class="DessertMenu-items u-textCenter">
+  <ul class="DessertMenu-items">
     {{#each desserts}}
     <li class="DessertMenu-item">
       <h3 class="DessertMenu-itemTitle">{{dessert-name}}</h3>

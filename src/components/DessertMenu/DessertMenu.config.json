@@ -28,9 +28,10 @@
   },
   "variants": [
     {
-      "name": "boxed",
+      "name": "inline",
+      "label": "Inline Menu",
       "context":{
-        "blockLayout": "true"
+        "inline": "true"
       }
     }
   ]

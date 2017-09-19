@@ -9,11 +9,14 @@
   border: 4px double var(--color-primary);
   border-radius: 2px;
   color: var(--color-primary);
+  margin: auto;
+  width: 50%;
 }
 
 .DessertMenu-header {
   padding: calc(var(--padding-base) * 6) var(--padding-base);
   position: relative;
+  text-align: center;
 }
 
 .DessertMenu-header::after,
@@ -82,7 +85,11 @@
  * BlockLayout variant styles here
  */
 
-.DessertMenu--blockLayout .DessertMenu-items {
+.DessertMenu--inline {
+  width: 80%;
+}
+
+.DessertMenu--inline .DessertMenu-items {
   display: flex;
   align-items: flex-start;
 }
