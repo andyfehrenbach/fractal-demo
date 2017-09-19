@@ -24,6 +24,4 @@ fractal.web.set('static.path', __dirname + '/src');
 
 fractal.web.set('server.sync', true);
 
-
-
 module.exports = fractal;

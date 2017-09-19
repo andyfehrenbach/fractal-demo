@@ -2,37 +2,9 @@
   "name": "DessertMenu",
   "label": "Dessert Menu",
   "context": {
-    "title": "House-Made Dessert",
-    "desserts": [
-      {
-        "dessert-name": "Lemon Tart",
-        "dessert-desc": "fresh lemon filling, shortbread crust, whipped cream",
-        "dessert-price": "8"
-      },
-      {
-        "dessert-name": "Bourbon Chocolate Pie",
-        "dessert-desc": "bourbon and dark chocolate, marshmallow, salted caramel",
-        "dessert-price": "9"
-      },
-      {
-        "dessert-name": "Chocolate Macaroons",
-        "dessert-desc": "chocolate drizzles, coconut, almonds",
-        "dessert-price": "7"
-      },
-      {
-        "dessert-name": "Gluten-free Chocolate Tart",
-        "dessert-desc": "orange creme anglaise, raspberry mint salsa, vanilla ice cream",
-        "dessert-price": "7"
-      }
-    ]
+
   },
   "variants": [
-    {
-      "name": "inline",
-      "label": "Inline Menu",
-      "context":{
-        "inline": "true"
-      }
-    }
+
   ]
 }
