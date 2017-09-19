@@ -25,5 +25,13 @@
         "dessert-price": "7"
       }
     ]
-  }
+  },
+  "variants": [
+    {
+      "name": "boxed",
+      "context":{
+        "blockLayout": "true"
+      }
+    }
+  ]
 }
