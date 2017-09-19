@@ -1,12 +1,12 @@
-#Getting Started in Fractal.js
+# Getting Started in Fractal.js
 
-#Intro
+# Intro
 The goal of this exercise is to introduce the methods and standards we use for ADEL in a simplified environment, and help avoid some of the pitfalls we made in our early contributions to ADEL.
 In this code challenge, you will use the Fractal component library to build a single component with 2 variants.
 You will use Handlebars to write markup following SuitCSS's best-practice naming conventions.
 You will be using ordinary CSS that supports the use of variables and calc() functions.
 
-#Installation
+# Installation
 * First download or clone the repository.
 * Next, navigate to the directory in a terminal and run
 <npm install>
@@ -14,7 +14,7 @@ You will be using ordinary CSS that supports the use of variables and calc() fun
 <git checkout -b "start">
 * We've provided a skeleton to avoid some of the initial hassle and grunt work.
 
-#Documentation
+# Documentation
 This is a self-guided exercise, but in order to complete it you will need to reference the following sets of documentation:
 
 * [Fractal](http://fractal.build/guide)
@@ -23,16 +23,16 @@ This is a self-guided exercise, but in order to complete it you will need to ref
 * [Handlebars](http://handlebarsjs.com/)
 * [Git](https://git-scm.com/doc)
 
-#Variants
+# Variants
 The Dessert Menu component has 2 variants, as shown here:
 
-####Default
+#### Default
 ![Default Variant](/images/Default.png)
 
-####Inline
+#### Inline
 ![Inline Variant](/images/Inline.png)
 
-#Notes
+# Notes
 * Code in CSS variables, but try to only introduce as many variables as is necessary to do the job. for example, do we need 4 margin and padding variables, or can we define one and run calc() functions on that variable when necessary?
 
 * Fractal has two types of variants: variants that share the same markup, and variants that have different markup.
@@ -44,7 +44,7 @@ For this exercise, the inline variant can be created without needing to write a 
 
 * When you're finished, set up a pull request. There are several elements in this project that could be accomplished many different ways, and it helps to know why you chose method X over method Y.
 
-#Resources
+# Resources
 * Feel free to use your own fonts, colors and data--these are what I used. Google fonts are loaded in `_preview.hbs`
 
 #### Font Stacks
