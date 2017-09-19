@@ -1,10 +1,10 @@
-# Getting Started in Fractal.js
+# Getting Started in ADEL & Fractal.js
 
 # Intro
-The goal of this exercise is to introduce the methods and standards we use for ADEL in a simplified environment, and help avoid some of the pitfalls we made in our early contributions to ADEL.
-In this code challenge, you will use the Fractal component library to build a single component with 2 variants.
-You will use Handlebars to write markup following SuitCSS's best-practice naming conventions.
-You will be using ordinary CSS that supports the use of variables and calc() functions.
+* The goal of this exercise is to introduce the methods and standards we use for ADEL in a simplified environment, and help avoid some of the pitfalls we made in our early contributions to ADEL.
+* In this code challenge, you will use the Fractal component library to build a single component with 2 variants.
+* You will use Handlebars to write markup following SuitCSS's best-practice naming conventions.
+* You will be using ordinary CSS that supports the use of variables and calc() functions.
 
 # Installation
 * First download or clone the repository.
