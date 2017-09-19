@@ -17,6 +17,16 @@ npm install
 git checkout -b "start"
 ```
 
+Fire up the component library on localhost:
+```
+npm run fractal-start
+```
+
+Or:
+```
+fractal start --sync
+```
+
 * We've provided a skeleton to avoid some of the initial hassle and grunt work.
 
 # Documentation
